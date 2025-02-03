@@ -14,7 +14,7 @@ function login () {
         
 
     }else {
-        alert("plz enter your name and email");
+        alert("plz enter your name and email kaaa sura bhai");
 
     }
     
