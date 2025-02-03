@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Tracker</title>
+    <link rel="stylesheet" href="fit tracker.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+        <button id="darkMOdeTOggle">🌙</button>
+    </header>
+
+    <main>
+        <section id="workout-form">
+            <h2>log your workout</h2>
+            <form id="logworkout">
+                <label for="workouType">workout type:</label>
+                <select id="workoutType">
+                    <option value="choose your workout">choose your workout</option>
+                    <option value="chest">chest workout</option>
+                    <option value="back">back workout</option>
+                    <option value="shoulder">shoulder workout</option>
+                    <option value="tricep">tricep workout</option>
+                    <option value="bidep">bidep workout</option>
+                    <option value="leg">leg workout</option>
+                </select>
+
+                <label for="duration">Duration (mins):</label>
+                <input type="number" id="duration" required placeholder="choose your time">
+                
+                <label for="number of sets">number of sets:</label>
+                <input type="number" id="number of sets" required placeholder="sets">
+
+                <button type="submit">Add workout</button>
+
+            </form>
+        </section>
+
+
+        
+          <!-- workout list  -->
+
+
+           <section id="workout-list">
+            <h2>workout History</h2>
+            <div id="workout"></div>
+           </section>
+
+    </main>
+    <script src=""></script>
+</body>
+<script src="fit tracker.js"></script>
+</html>
